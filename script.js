@@ -68,7 +68,7 @@ console.log(headerEl);
 
 let index = 0;
 
-function count() {
+function doubleClic() {
     if (index == 2){
         styleLinkEl.disabled = true;
     }
@@ -80,5 +80,5 @@ function count() {
 }
 
 if (headerEl){
-    headerEl.addEventListener("click", count);
+    headerEl.addEventListener("click", DoubleClic);
 }
