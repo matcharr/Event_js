@@ -80,5 +80,5 @@ function doubleClic() {
 }
 
 if (headerEl){
-    headerEl.addEventListener("click", DoubleClic);
+    headerEl.addEventListener("click", doubleClic);
 }
